@@ -4,3 +4,4 @@ node_modules/
 BackEndTestFlavio.txt
 uploads/*
 !uploads/.gitkeep
+frontend-test-flavio/
