@@ -4,7 +4,7 @@ const router = express.Router();
 
 const { protect } = require("../middleware/authMiddleware");
 
-("iMPORT");
+// Import
 const {
   uploadRide,
   getRides,
@@ -19,7 +19,7 @@ const upload = multer({ dest: "uploads/" });
 router.post("/", protect, upload.single("gpxFile"), uploadRide);
 router.get("/", protect, getRides);
 router.get("/report/:year", protect, getYearReport);
-("id's");
+// Ab hier alles mit ID!!!
 router.get("/:id", protect, getRideById);
 router.put("/:id", protect, updateRide);
 router.delete("/:id", protect, deleteRide);

@@ -1,7 +1,6 @@
 .env
 Stand.txt
 node_modules/
-package-lock.json
 BackEndTestFlavio.txt
 uploads/*
 !uploads/.gitkeep

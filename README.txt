@@ -1,1 +1,1 @@
-Mern-Projekt von Fla und Adi
+YearRide ist eine MERN-Webapplikation zum Hochladen und Auswerten von GPX-Rennradfahrten.
