@@ -11,14 +11,15 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+//Route für Server Status
 app.get("/", (req, res) => {
   res.json({ message: "GPX Year Report API läuft" });
 });
 
-"Loggin Routen"
+// Loggin Routen
 app.use("/api/auth", require("./routes/authRoutes"));
 
-"Fahrten Routen"
+// Fahrten Routen
 app.use("/api/rides", require("./routes/rideRoutes"));
 
 const PORT = process.env.PORT || 5000;
