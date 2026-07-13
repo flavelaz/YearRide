@@ -14,7 +14,11 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({ message: "GPX Year Report API läuft" });
 });
+
+"Loggin Routen"
 app.use("/api/auth", require("./routes/authRoutes"));
+
+"Fahrten Routen"
 app.use("/api/rides", require("./routes/rideRoutes"));
 
 const PORT = process.env.PORT || 5000;
