@@ -20,6 +20,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+---Flavio
 .env
 Stand.txt
 node_modules/
