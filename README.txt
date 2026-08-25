@@ -1,2 +1,1 @@
-Mern-Projekt von Fla und Adi
-POGI POGI POGI
+YearRide ist eine MERN-Webapplikation zum Hochladen und Auswerten von GPX-Rennradfahrten.
